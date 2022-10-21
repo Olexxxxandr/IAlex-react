@@ -1,0 +1,104 @@
+.iphones{
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.iphones_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iphones_title{
+    font-size: 40px;
+}
+
+.iphones_seacrh-block{
+    display: flex;
+    align-items: center;
+}
+
+.iphones_search{
+    margin-left: 10px;
+    padding-left: 5px;
+    height: 30px;
+    width: 250px;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    background-color: transparent;
+}
+
+.iphones_search:active, :hover, :focus{
+    outline: 0;
+}
+
+.iphones_cards{
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+
+.iphones_card{
+    background-color: #1D1D1D;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.iphones_card:hover{
+    width: 310px;
+    cursor: pointer;
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+
+.iphones_card-photo{
+    padding-top: 10px;
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+}
+
+.iphones_card-title{
+    padding: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #FFD325;
+    text-align: center;
+    font-size: 28px;
+}
+
+.iphones_card-info{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iphones_card-price{
+    font-weight: 700;
+    font-size: 24px;
+    color:#FFD325;
+}
+
+.iphones_card_link{
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #5A5C92;
+}
+
+.iphones_card_link:hover{
+    background-color: #4b4c7e;
+    transition: 1s;
+}
+
+.clicked{
+    cursor: pointer;
+}

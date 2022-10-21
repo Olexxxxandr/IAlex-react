@@ -1,0 +1,14 @@
+.site-container{
+ left: 0;
+ background-color: #111111;
+}
+
+.header{
+ height: 90px;
+ background-color: #1D1D1D;
+}
+
+.wrapper{
+  margin: 0 auto;
+  max-width: 1240px;
+}

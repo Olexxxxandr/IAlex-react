@@ -1,0 +1,39 @@
+.accessories{
+    padding-top: 55px;
+
+}
+
+.accessories_color-title{
+    font-size: 50px;
+    padding-left: 15px;
+    color:#FFD325;
+}
+
+.accessories_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.accessories_acc{
+    width: 295px;
+    height: 300px;
+    background-color: #1D1D1D;
+    border: 1px solid #555555;
+
+}
+
+.acc_pic{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.acc_title{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+}

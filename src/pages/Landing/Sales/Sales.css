@@ -1,0 +1,92 @@
+.sales{
+    padding-top: 55px;
+}
+
+.sales_wrapper{
+    position: relative;
+    height: 700px;
+    background-color: #1D1D1D;
+    border: 1px solid #555555;
+}
+
+.sales_arrow-left{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 12px;
+}
+
+.sales_arrow-right{
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 350px;
+    margin-right: 12px;
+}
+
+.sales_data{
+    max-width: 1030px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.sales_data-sale{
+    width: 505px;
+    height: 600px;
+    border: 1px solid #555555;
+}
+
+.sales_data-pic{
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.sales_data-name{
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.sale_post{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 45px;
+    justify-content: space-between;
+}
+
+.sales_data-firstPrice{
+    text-decoration: line-through;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.sales_data-secondPrice{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #FFD325;
+}
+
+.sales_data-link{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    padding: 15px 60px;
+    background-color: #5A5C92;
+    margin-left: 162px;
+}
+
+.sales_nav{
+    padding-top: 36px;
+    padding-bottom: 55px;
+    margin-left: 320px;
+}

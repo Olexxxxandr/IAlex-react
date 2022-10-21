@@ -1,0 +1,59 @@
+.about{
+    padding-top: 55px;
+    padding-bottom: 110px;
+}
+
+.about_title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+}
+
+.about_title-setting{
+    font-size: 50px;
+    color: #FFD325;
+}
+
+.about_subtitle{
+    padding-top: 70px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.about_link-div{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.about_link{
+    padding: 15px 60px;
+    background-color: #5A5C92;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    border: 0;
+}
+
+.about_subtitle-top{
+    color: rgba(197, 198, 199, 0.8);
+}
+
+.about_subtitle-mid{
+    color: rgba(197, 198, 199, 0.5);
+}
+
+.about_subtitle-bottom{
+    color: rgba(197, 198, 199, 0.2);
+}
+
+.about_subtitle-hidden{
+    display: none;
+}

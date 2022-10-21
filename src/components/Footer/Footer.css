@@ -1,0 +1,149 @@
+.footer{
+    background-color: #1D1D1D;
+    padding-bottom: 70px;
+}
+
+.footer__content-contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 55px;
+    padding-bottom: 75px;
+}
+
+.footer__content-logo{
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.footer_logo{
+    font-size: 40px;
+    color: #FFD325;
+}
+
+.footer__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.footer__content-soc{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-media{
+    margin-left: 15px;
+}
+
+.sm-link{
+    color: #fff;
+}
+
+.footer__menu-container{
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+.footer__menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 119px;
+}
+
+.footer__menu-item-title{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+}
+
+.iphone-logo{
+    background: url("./img/IphoneLogo.svg") no-repeat 105px;
+}
+
+.ipad-logo{
+    background: url("./img/IPadLogo.svg") no-repeat 70px;
+}
+
+.mac-logo{
+    background: url("./img/MacLogo.svg") no-repeat 70px;
+}
+
+.gadgets-logo{
+    background: url("./img/GadgetsLogo.svg") no-repeat 135px;
+}
+
+.footer__menu-list{
+    margin-top: 40px;
+}
+
+.footer__menu-link{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+}
+
+/*-----Footer-info-----------------------------------------------------------------------*/
+
+.footer-info{
+    background-color:#111111;
+    left: 0;
+    bottom: 0;
+}
+
+.footer-info__content{
+    padding-top: 55px;
+}
+
+.footer-info__info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-info__logo{
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.footer-info__logo-setting{
+    font-size: 40px;
+    color:#FFD325;
+}
+
+.footer-info__contacts{
+    margin-bottom: 30px;
+}
+
+.footer-info__contact{
+    font-weight: normal;
+    text-align: right;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-info__contact:last-child{
+    margin-bottom: 0px;
+}
+
+.footer-info__link{
+    color: #fff;
+}
+
+.location{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding-bottom: 25px;
+}
